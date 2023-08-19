@@ -3,12 +3,12 @@
 html, body {
   height: 100%;
   min-height: 100%;
-  background: url("chrome://global/skin/media/imagedoc-darknoise.png") fixed;
+  /*background: url("chrome://global/skin/media/imagedoc-darknoise.png") fixed; */
 }
 
 body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: 443px 772px;
+  background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -16,20 +16,13 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  padding-top: 10px;
-  width: 266px;
+  width: 60%;
   padding-bottom: 40px;
-  text-align: center;
 }
 
-
-
 #content {
-  height: 100%;
-  padding: 10px;
+  padding: 20px;
   background: rgba(255,255,255,.85);
-  text-align: start;
-  box-sizing: border-box;
 }
 
 h1, h2 {
@@ -37,22 +30,20 @@ h1, h2 {
   color: #fff;
 }
 
-h1 { 
-  font-size: 1.0em;
-  line-height: 1em;
-  letter-spacing: .03em;
-  margin: 0;
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0;
 }
 
 h2 {
-  font-size: 0.6em;
-  margin: 0;
+  font-size: 1.5em;
+  margin-top: .5em;
 }
 
 h3 {
-  margin: 0;
   font-family: 'Gabriela', serif;
-  font-size: 0.5em;
+  font-size: 1.5em;
+  margin-top: .5em;
 }
 
 img {
@@ -62,8 +53,7 @@ img {
 }
 
 p {
-  margin: 2px;
-  font-size: 0.3em;
+  font-size: 1em;
 }
 
 a {
